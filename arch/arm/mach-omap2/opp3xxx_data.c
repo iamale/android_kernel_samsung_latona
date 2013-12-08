@@ -172,7 +172,7 @@ static struct omap_opp_def __initdata omap36xx_opp_def_list[] = {
 #ifdef CONFIG_LATONA_OPP5_ENABLED
 	/* MPU OPP5 - Overclock */
 	OPP_INITIALIZER("mpu", "dpll1_ck", "mpu_iva", true,
-				1100000000, OMAP3630_VDD_MPU_OPP2G_UV),
+				1150000000, OMAP3630_VDD_MPU_OPP2G_UV),
 #endif
 
 #ifdef CONFIG_MACH_OMAP_LATONA
